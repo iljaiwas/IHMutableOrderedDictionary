@@ -1,4 +1,4 @@
-IHMutableOrderedDictionary is a simple replacement for NSMutableDictionary, which spills out keys during an enumeration in the order they were inserted.
+A simple replacement for NSMutableDictionary, which returns its keys during an enumeration in the order they were inserted.
 
 This class uses modern Objective-C features as properties and ARC.It supports fast enumeration, as well as keyed and indexed subscript access.
 
