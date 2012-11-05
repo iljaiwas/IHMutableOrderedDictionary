@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'IHMutableOrderedDictionary' target in the 'IHMutableOrderedDictionary' project
+//
+
+#ifdef __OBJC__
+	#import <Cocoa/Cocoa.h>
+#endif
