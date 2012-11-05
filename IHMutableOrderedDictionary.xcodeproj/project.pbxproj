@@ -17,6 +17,8 @@
 		4D7B8B5A16481AE400E27B8F /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D7B8B3A16481AE300E27B8F /* Cocoa.framework */; };
 		4D7B8B6216481AE400E27B8F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4D7B8B6016481AE400E27B8F /* InfoPlist.strings */; };
 		4D7B8B6516481AE400E27B8F /* IHMutableOrderedDictionaryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D7B8B6416481AE400E27B8F /* IHMutableOrderedDictionaryTests.m */; };
+		4D7B8B7016481B0A00E27B8F /* IHMutableOrderedDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D7B8B6F16481B0A00E27B8F /* IHMutableOrderedDictionary.m */; };
+		4D7B8B7116481B0A00E27B8F /* IHMutableOrderedDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D7B8B6F16481B0A00E27B8F /* IHMutableOrderedDictionary.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		4D7B8B6116481AE400E27B8F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4D7B8B6316481AE400E27B8F /* IHMutableOrderedDictionaryTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IHMutableOrderedDictionaryTests.h; sourceTree = "<group>"; };
 		4D7B8B6416481AE400E27B8F /* IHMutableOrderedDictionaryTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IHMutableOrderedDictionaryTests.m; sourceTree = "<group>"; };
+		4D7B8B6E16481B0A00E27B8F /* IHMutableOrderedDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IHMutableOrderedDictionary.h; sourceTree = "<group>"; };
+		4D7B8B6F16481B0A00E27B8F /* IHMutableOrderedDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IHMutableOrderedDictionary.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +118,8 @@
 		4D7B8B4016481AE300E27B8F /* IHMutableOrderedDictionary */ = {
 			isa = PBXGroup;
 			children = (
+				4D7B8B6E16481B0A00E27B8F /* IHMutableOrderedDictionary.h */,
+				4D7B8B6F16481B0A00E27B8F /* IHMutableOrderedDictionary.m */,
 				4D7B8B4C16481AE300E27B8F /* IHAppDelegate.h */,
 				4D7B8B4D16481AE300E27B8F /* IHAppDelegate.m */,
 				4D7B8B4F16481AE300E27B8F /* MainMenu.xib */,
@@ -264,6 +270,7 @@
 			files = (
 				4D7B8B4716481AE300E27B8F /* main.m in Sources */,
 				4D7B8B4E16481AE300E27B8F /* IHAppDelegate.m in Sources */,
+				4D7B8B7016481B0A00E27B8F /* IHMutableOrderedDictionary.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +279,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4D7B8B6516481AE400E27B8F /* IHMutableOrderedDictionaryTests.m in Sources */,
+				4D7B8B7116481B0A00E27B8F /* IHMutableOrderedDictionary.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

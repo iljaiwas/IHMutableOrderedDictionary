@@ -8,6 +8,9 @@
 
 #import <SenTestingKit/SenTestingKit.h>
 
+@class IHMutableOrderedDictionary;
+
 @interface IHMutableOrderedDictionaryTests : SenTestCase
 
+@property (retain) IHMutableOrderedDictionary *testDict;
 @end
